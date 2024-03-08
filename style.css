@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    color: rgb(52, 8, 93);
+    font-size: 2rem;
+}
+#btn{
+    margin-top: -2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#all,#ai,#ml,#ds{
+    padding: 1rem;
+    margin: 1rem;
+    outline: none;
+    border: none;
+    background-color: rgb(51, 25, 216);
+    color: white;
+    border-radius: 10px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    height: 50vh;
+    width: 30vw;
+    object-fit: cover;
+}
