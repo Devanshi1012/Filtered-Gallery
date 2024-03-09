@@ -5,24 +5,6 @@ const all = document.querySelector("#all");
 const allImage = document.querySelector(".container");
 // const showImage = document.querySelectorAll(".image");
 
-//another method
-// const btns = {
-//     "All":["ai","ml","ds"],
-//     "Artificial Intelligence":["ai"],
-//     "Machine learning":["ml"],
-//     "Data Science":["ds"]
-// }
-// function showImages(btn){
-//     const selectedBoxes = btns[btn];
-//     allImage.innerHTML = "";
-
-//     selectedBoxes.forEach(btnId=>{
-//         const image = document.querySelector(btnId);
-//         allImage.appendChild(image);
-//     })
-
-// }
-
 const originalContent = allImage.innerHTML;
 function filterImages(className) {
     allImage.innerHTML = originalContent; // Restore original content
