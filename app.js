@@ -3,7 +3,6 @@ const mlBtn = document.querySelector("#ml");
 const dsBtn = document.querySelector("#ds");
 const all = document.querySelector("#all");
 const allImage = document.querySelector(".container");
-// const showImage = document.querySelectorAll(".image");
 
 const originalContent = allImage.innerHTML;
 function filterImages(className) {
